@@ -1,3 +1,3 @@
 # joKenPo
 
-Projeto que recria o jogo  pedra, papel e tesoura.
+Projeto que recria o jogo  pedra, papel ou tesoura.
