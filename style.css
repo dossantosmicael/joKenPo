@@ -80,6 +80,13 @@ h1 {
     border-top-left-radius: 10px;
 }
 
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding: 20px 0;
+}
+
 .bloco {
     width: 100%;
     padding: 20px 0;
@@ -122,4 +129,23 @@ h1 {
 .bg-red {
     background-color: var(--red);
     right: 15%;
+}
+
+.bg-gray {
+    background-color: var(--grey);
+    height: 180px;
+}
+
+.selected-image div {
+    width: 50%;
+    min-height: 80px;
+    text-align: center;
+}
+
+.selected-image div img {
+    max-width: 80%;
+}
+
+.reverse {
+    transform: scaleX(-1);
 }
