@@ -18,6 +18,7 @@ var contPc = 0
 var jogador1 = ""
 var jogador2 = ""
 
+/*animações do jogo*/
 jogar.addEventListener("click", () => {
     reset()
     playPc()
@@ -37,6 +38,7 @@ function playPc() {
     game()
 }
 
+/*logica do jogo*/
 function game() {
     jogar.disable = true
 
@@ -79,6 +81,7 @@ function game() {
     },2000)
     }
 
+    /*reset de nova partida*/
     function clear() {
         imgEu.innerHTML = ""
         imgPc.innerHTML = ""
